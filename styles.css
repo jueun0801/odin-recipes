@@ -1,3 +1,6 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .main {  
     border: 1px solid;
     border-radius: 5px;
@@ -8,9 +11,15 @@
     padding: 50px 50px; 
     place-content: center;
     display: block;
+    background-color: #aed8e2;
 
 }
 .main ul li{
     list-style: none;
     padding: 10px;
+}
+hr {
+    height: 2px;
+    background-color: #fff;
+    border: none;
 }

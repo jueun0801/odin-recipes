@@ -1,3 +1,6 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .back{
     position: fixed;
 }
@@ -9,6 +12,10 @@
     padding-left: 50px;
     padding-right: 50px;
     width: min(50%, 700px);
+}
+.container img {
+    height: 100%;
+    width: 100%;
 }
 
 ul li{
