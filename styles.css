@@ -1,0 +1,16 @@
+.main {  
+    border: 1px solid;
+    border-radius: 5px;
+    width: min(50%, 500px); 
+    /*width will be at most 500px*/
+    text-align: center;
+    margin:auto;
+    padding: 50px 50px; 
+    place-content: center;
+    display: block;
+
+}
+.main ul li{
+    list-style: none;
+    padding: 10px;
+}
