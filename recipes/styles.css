@@ -13,12 +13,19 @@
 
 ul li{
     padding-left: 1ch;
-    
-}
-ul li::marker{
-    content: url("./images/roast-chicken.png")
+    padding-top: 5px;
+} 
+.chicken li::marker{
+    content: url("./images/roast-chicken2.png")
 }
 
 .main{
     text-align: left;
+}
+.rice li::marker{
+    content: url("./images/chopsticks.png");
+    
+}
+.gains li::marker{
+    content: url("./images/gains.png");
 }
