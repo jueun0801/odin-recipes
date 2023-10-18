@@ -1,0 +1,24 @@
+.back{
+    position: fixed;
+}
+.container{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: min(50%, 700px);
+}
+
+ul li{
+    padding-left: 1ch;
+    
+}
+ul li::marker{
+    content: url("./images/roast-chicken.png")
+}
+
+.main{
+    text-align: left;
+}
